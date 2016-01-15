@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "+[PublicHelper IsNetwork:]:PublicHelper.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "rech.connectionRequired">
+            </PersistentString>
+            <PersistentString
+               value = "rech.startNotifier">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[PublicInfoViewController tableView:didSelectRowAtIndexPath:]:PublicInfoViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[PublicHelper GetSettingValue:@&quot;HttpIP&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ReprotView defaultPicker]:ReprotView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "streetDic">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[PublicHelper IsNetwork]:PublicHelper.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[rech startNotifier]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

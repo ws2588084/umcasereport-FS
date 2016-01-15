@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CityManagemantViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="背景2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="agP-G9-FuK">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.33444792306578452" green="0.96521578054426027" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="agP-G9-FuK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="8no-Xl-bWM"/>
+                <constraint firstAttribute="bottom" secondItem="agP-G9-FuK" secondAttribute="bottom" id="PbO-Az-dNs"/>
+                <constraint firstItem="agP-G9-FuK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="iI8-Ig-yky"/>
+                <constraint firstAttribute="trailing" secondItem="agP-G9-FuK" secondAttribute="trailing" id="qam-jL-cq0"/>
+            </constraints>
+            <point key="canvasLocation" x="433" y="307"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="背景2.jpg" width="480" height="800"/>
+    </resources>
+</document>
